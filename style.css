@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(66, 66, 243);
+}
+select{
+    height: 60px;
+    padding: 15px;
+    border-radius: 20px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+}
+#textarea{
+    padding: 20px;
+    border-radius: 20px;
+}
+.karobka{
+    background-color: rgb(13, 0, 70);
+    width: 600px;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 20px;
+}
+.texttovoice{
+    font-size: 50px;
+}
